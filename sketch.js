@@ -2,13 +2,13 @@
 var r = 0;
 var g = 50;
 var b=255;
-
+var ellipse;
 // INITIALIZE ALL YOUR VARIABLES
 // Ideally you would create 3 variables. red blue green or r, g, b
 
 
 function setup(){
-
+ellipse = createSprite(100, 100, 10, 10);
   createCanvas(1200,400);
 }
 
